@@ -8,3 +8,7 @@ And after I checked the output file I asked the additional modification of the c
 
 ## program
 vcalendar2ics.py : main program
+
+## issues
+Every event is separated to the different files because the import errors to the google calendare sometimes occur. 
+If \n contains in summary, google calendar may fail the import.
